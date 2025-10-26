@@ -1,0 +1,101 @@
+{
+    "workbench.colorTheme": "Shades of Purple (Super Dark)",
+    "editor.fontFamily": "Fira Code",
+    "editor.fontLigatures": true,
+
+    "editor.minimap.enabled": false,
+    "workbench.sideBar.location": "right",
+    "editor.scrollbar.horizontal": "hidden",
+    "editor.scrollbar.vertical": "hidden",
+    "editor.overviewRulerBorder": false,
+    "editor.hideCursorInOverviewRuler": true,
+    "editor.formatOnPaste": true,
+    "editor.guides.indentation": false,
+    "indenticator.width": 0.1,
+    "indenticator.color.dark": "rgba(255,255,255,0.1)",
+    "breadcrumbs.enabled": false,
+    "editor.autoSave": "afterDelay",
+    "editor.autoSaveDelay": 1000,
+    "editor.lineDecorationsWidth": 2,
+    "editor.glyphMargin": false,
+    "editor.cursorBlinking": "expand",
+    "editor.linkedEditing": true,
+    "editor.bracketPairColorization.enabled": true,
+    "notebook.stickyScroll.enabled": false,
+    "editor.cursorSmoothCaretAnimation": true,
+    "editor.stickyScroll.enabled": false,
+    "workbench.colorCustomizations": {
+        "editor.background": "#0a0822",
+        "editor.foreground": "#e7e7ff",
+        "activityBar.background": "#070618",
+        "editorGroupHeader.tabsBackground": "#070618",
+        "sideBar.background": "#070618",
+        "editorGutter.background": "#070618",
+        "sideBar.foreground": "#dcd9ff",
+        "titleBar.activeBackground": "#070618",
+        "titleBar.activeForeground": "#dcd9ff",
+        "statusBar.background": "#070618",
+        "statusBar.foreground": "#cfcaff",
+        "tab.activeBackground": "#0f0a30",
+        "tab.inactiveBackground": "#070618",
+        "tab.activeForeground": "#ffffff",
+        "tab.inactiveForeground": "#a8a2ff",
+        "panel.background": "#070618",
+        "panelTitle.activeForeground": "#ffffff",
+        "editorLineNumber.foreground": "#6c63c7",
+        "editorLineNumber.activeForeground": "#cfcaff",
+        "editor.inactiveSelectionBackground": "#2a145866",
+        "editor.lineHighlightBackground": "#130d35",
+        "editorWhitespace.foreground": "#423a90",
+        "terminal.background": "#070618",
+        "terminal.foreground": "#e7e7ff",
+        // Quita el drop shadow del editor en el scroll del codigo
+        "scrollbar.shadow": "#07061800",
+        "scrollbarSlider.background": "#1a173f99",
+        "scrollbarSlider.hoverBackground": "#2a276099",
+        "scrollbarSlider.activeBackground": "#3a379999"
+
+    },
+    "editor.tokenColorCustomizations": {
+        "textMateRules": [
+            // {
+            //     "scope": ["comment"],
+            //     "settings": {
+            //         "foreground": "#6a63b3"
+            //     }
+            // },
+            // {
+            //     "scope": ["keyword", "storage.type"],
+            //     "settings": {
+            //         "foreground": "#b99fff",
+            //         "fontStyle": "bold"
+            //     }
+            // },
+            {
+                "scope": ["string"],
+                "settings": {
+                    "foreground": "#81fb85"
+                }
+            },
+            {
+                "scope": ["variable", "parameter"],
+                "settings": {
+                    "foreground": "#e7e7ff"
+                }
+            },
+            // {
+            //     "scope": ["entity.name.function"],
+            //     "settings": {
+            //         "foreground": "#9d86ff"
+            //     }
+            // },
+            {
+                "scope": ["constant.numeric"],
+                "settings": {
+                    "foreground": "#ffd866"
+                }
+            }
+        ]
+    },
+    "workbench.productIconTheme": "fluent-icons"
+}
