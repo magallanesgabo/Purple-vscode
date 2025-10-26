@@ -48,7 +48,7 @@
         "editor.lineHighlightBorder": "#07061800",
         "editor.lineHighlightBackground": "#130d35",
         "editorWhitespace.foreground": "#423a90",
-        "editor.foldBackground": "#0e0a2f",
+        "editor.foldBackground": "#0a0822",
         "terminal.background": "#070618",
         "terminal.foreground": "#e7e7ff",
         // Quita el drop shadow del editor en el scroll del codigo
