@@ -22,7 +22,7 @@
     "editor.linkedEditing": true,
     "editor.bracketPairColorization.enabled": true,
     "notebook.stickyScroll.enabled": false,
-    "editor.cursorSmoothCaretAnimation": true,
+    "editor.cursorSmoothCaretAnimation": "on",
     "editor.stickyScroll.enabled": false,
     "workbench.colorCustomizations": {
         "editor.background": "#0a0822",
@@ -45,8 +45,10 @@
         "editorLineNumber.foreground": "#6c63c7",
         "editorLineNumber.activeForeground": "#cfcaff",
         "editor.inactiveSelectionBackground": "#2a145866",
+        "editor.lineHighlightBorder": "#07061800",
         "editor.lineHighlightBackground": "#130d35",
         "editorWhitespace.foreground": "#423a90",
+        "editor.foldBackground": "#0e0a2f",
         "terminal.background": "#070618",
         "terminal.foreground": "#e7e7ff",
         // Quita el drop shadow del editor en el scroll del codigo
